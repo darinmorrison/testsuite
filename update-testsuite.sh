@@ -7,20 +7,7 @@ set -o pipefail
 ignore_dirs='document interpreter test/harness'
 
 repos='
-  spec
-  threads
   simd
-  exception-handling
-  gc
-  bulk-memory-operations
-  tail-call
-  nontrapping-float-to-int-conversions
-  multi-value
-  host-bindings
-  sign-extension-ops
-  reference-types
-  annotations
-  function-references
 '
 
 log_and_run() {
